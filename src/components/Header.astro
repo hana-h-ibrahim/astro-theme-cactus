@@ -31,9 +31,9 @@ const url = new URL(Astro.request.url);
 			aria-current={url.pathname === "/" ? "page" : false}
 		>
 				<title>Logo</title>
-				<img width="50" src="https://media-exp1.licdn.com/dms/image/D4E03AQFwMT6GoaVxFA/profile-displayphoto-shrink_400_400/0/1666866083962?e=1672272000&v=beta&t=kgBqcSls8PoXW7m2Wo4O82Y13-xSnCfRYe-iaC2YBzs"> 
+				<img  src="https://media-exp1.licdn.com/dms/image/D4E03AQFwMT6GoaVxFA/profile-displayphoto-shrink_400_400/0/1666866083962?e=1672272000&v=beta&t=kgBqcSls8PoXW7m2Wo4O82Y13-xSnCfRYe-iaC2YBzs" style="width:64px; height:64px; vertical-align:middle" > </span>
 			<span>Hana Ibrahim</span>
-		</a></span>
+		</a>
 		<nav id="navigation-menu" aria-label="Main">
 			<a href="/" aria-current={url.pathname === "/" ? "page" : false}>Home</a>
 			<a href="/about" aria-current={url.pathname === "/about" ? "page" : false}
