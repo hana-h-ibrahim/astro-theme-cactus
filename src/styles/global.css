@@ -3,7 +3,7 @@
 	:root {
 		color-scheme: light;
 		--theme-bg: 0 0% 98%;
-		--theme-link: 172 18.1% 41.2%;
+		--theme-link: rgba(52, 97, 212, 0.85);
 		--theme-text: 202 10.5% 14.9%;
 		--theme-accent: 351 65.9% 48.2%;
 		--theme-accent-2: 0 0% 6.7%;
