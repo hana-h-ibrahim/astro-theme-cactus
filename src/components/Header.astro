@@ -23,6 +23,8 @@ const url = new URL(Astro.request.url);
 
 <header>
 	<span>
+
+		<span>
 		<a
 			href="/"
 			class="logo"
@@ -31,7 +33,7 @@ const url = new URL(Astro.request.url);
 				<title>Logo</title>
 				<img width="50" src="https://media-exp1.licdn.com/dms/image/D4E03AQFwMT6GoaVxFA/profile-displayphoto-shrink_400_400/0/1666866083962?e=1672272000&v=beta&t=kgBqcSls8PoXW7m2Wo4O82Y13-xSnCfRYe-iaC2YBzs"> 
 			<span>Hana Ibrahim</span>
-		</a>
+		</a></span>
 		<nav id="navigation-menu" aria-label="Main">
 			<a href="/" aria-current={url.pathname === "/" ? "page" : false}>Home</a>
 			<a href="/about" aria-current={url.pathname === "/about" ? "page" : false}
